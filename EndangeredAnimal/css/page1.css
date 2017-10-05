@@ -3,17 +3,20 @@
 }
 
 body {
+    margin: 0px;
     margin-top: 72px;
+    width: 100%;
 }
 
 html {
     margin: 0;
+    width: 100%;
 }
 
 .navbar {
-    background: rgb(240,240,240);
+    background: rgba(0,0,0,0.33);
     margin: auto;
-    width: 95%;
+    width: 50%;
 }
 
 nav ul {
@@ -25,7 +28,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    width: 23.75%;
+    width: 25%;
 }
 
 footer {
@@ -41,7 +44,7 @@ footer {
 .wrapper {
     background-color: rgb(125,150,125);
     margin: auto;
-    width: 98%;
+    width: 90%;
 }
 
 a:link {
@@ -187,9 +190,10 @@ a:active {
     
     header {
         position: fixed;
+        left: 50%;
+        width: 50%;
         top: 0px;
-        width: 100%;
-        z-index: -1;
+        z-index: 1;
     }
     
     .one {
@@ -252,9 +256,10 @@ a:active {
     
     header {
         position: fixed;
-        width: 100%;
+        left: 50%;
+        width: 50%;
         top: 0px;
-        z-index: -1;
+        z-index: 1;
     }
     
     .one {
@@ -320,6 +325,8 @@ a:active {
     
     header {
         position: fixed;
+        left: 50%;
+        width: 50%;
         top: 0px;
         z-index: -1;
     }
