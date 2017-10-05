@@ -3,18 +3,33 @@
 }
 
 body {
-    margin-top: 5%;
+    margin-top: 72px;
+}
+
+html {
+    margin: 0;
+}
+
+.navbar {
+    background: rgb(240,240,240);
+    margin: auto;
+    width: 95%;
 }
 
 nav ul {
+    clear: both;
     display: inline-block;
     list-style-type: none;
-    clear: both;
+    width: 100%;
 }
 
 nav ul li {
     float: left;
-    width: 25%;
+    width: 23.75%;
+}
+
+footer {
+    margin-top: 24px;
 }
 
 .clear:after {
@@ -26,6 +41,32 @@ nav ul li {
 .wrapper {
     background-color: rgb(125,150,125);
     margin: auto;
+    width: 98%;
+}
+
+a:link {
+    background: rgb(255,200,0);
+    border: 5px solid rgb(200,100,0);
+    border-radius:5px;
+    color: white;
+    font-family: sans-serif;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited {
+    background: rgb(200,200,0);
+    border: 5px solid rgb(150,200,0);
+    padding: 15px 25px;
+}
+
+a:hover {
+    
+}
+
+a:active {
+    
 }
 
 @media screen and (max-width: 420px) {
@@ -146,6 +187,9 @@ nav ul li {
     
     header {
         position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: -1;
     }
     
     .one {
@@ -208,6 +252,7 @@ nav ul li {
     
     header {
         position: fixed;
+        width: 100%;
         top: 0px;
         z-index: -1;
     }
