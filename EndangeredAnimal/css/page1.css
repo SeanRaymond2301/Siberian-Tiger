@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 5%;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    clear: both;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+}
+
+.clear:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.wrapper {
+    background-color: rgb(125,150,125);
+    margin: auto;
+}
+
+@media screen and (max-width: 420px) {
+    
+    body {
+        background: rgb(255,255,255);
+    } 
+    
+    .one {
+        width: 100%;
+    } 
+    
+    .two {
+        width: 100%;
+    }
+    
+    .three {
+        width: 100%;
+    }
+    
+    .four {
+        width: 100%;
+    }
+    
+    .five {
+        width: 100%;
+    }
+    
+    .six {
+        width: 100%;
+    }
+    
+    .seven {
+        width: 100%;
+    }
+    
+    .eight {
+        width: 100%;
+    }
+    
+    .nine {
+        width: 100%;
+    }
+
+    .ten {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 421px) and (max-width: 768px) {]
+    
+    body {
+        background: rgb(255,255,255);
+    }
+    
+    div > div {
+        background: rgb(255,255,0);
+    }
+    
+    .one {
+        float: left;
+        width: 50%;
+    } 
+    
+    .two {
+        float: left;
+        width: 50%;
+    }
+    
+    .three {
+        float: left;
+        width: 50%;
+    }
+    
+    .four {
+        float: left;
+        width: 50%;
+    }
+    
+    .five {
+        float: left;
+        width: 50%;
+    }
+    
+    .six {
+        float: left;
+        width: 50%;
+    }
+    
+    .seven {
+        float: left;
+        width: 50%;
+    }
+    
+    .eight {
+        float: left;
+        width: 50%;
+    }
+    
+    .nine {
+        float: left;
+        width: 50%;
+    }
+
+    .ten {
+        float: left;
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    body {
+        background: rgb(255,255,255);
+    }
+    
+    header {
+        position: fixed;
+    }
+    
+    .one {
+        float: left;
+        width: 33.33%;
+    } 
+    
+    .two {
+        float: left;
+        width: 33.33%;
+    }
+    
+    .three {
+        float: left;
+        width: 33.34%;
+    }
+    
+    .four {
+        float: left;
+        width: 33.33%;
+    }
+    
+    .five {
+        float: left;
+        width: 33.33%;
+    }
+    
+    .six {
+        float: left;
+        width: 33.34%;
+    }
+    
+    .seven {
+        float: left;
+        width: 33.33%;
+    }
+    
+    .eight {
+        float: left;
+        width: 33.33%;
+    }
+    
+    .nine {
+        float: left;
+        width: 33.34%;
+    }
+
+    .ten {
+        float: left;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+    
+    body {
+        background: rgb(255,255,255);
+    }
+    
+    header {
+        position: fixed;
+        top: 0px;
+        z-index: -1;
+    }
+    
+    .one {
+        float: left;
+        width: 25%;
+    } 
+    
+    .two {
+        float: left;
+        width: 25%;  
+    }
+    
+    .three {
+        float: left;
+        width: 25%;
+    }
+    
+    .four {
+        float: left;
+        width: 25%;
+    }
+    
+    .five {
+        float: left;
+        width: 25%;
+    }
+    
+    .six {
+        float: left;
+        width: 25%;
+    }
+    
+    
+    .seven {
+        float: left;
+        width: 25%;
+    }
+    
+    .eight {
+        float: left;
+        width: 25%;
+    }
+    
+    .nine {
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+
+    .ten {
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 1921px) {
+    
+    body {
+        background: rgb(150,150,150);
+    }
+    
+    header {
+        position: fixed;
+        top: 0px;
+        z-index: -1;
+    }
+    
+    .one {
+        float: left;
+        width: 25%;
+    } 
+    
+    .two {
+        float: left;
+        width: 25%;  
+    }
+    
+    .three {
+        float: left;
+        width: 25%;
+    }
+    
+    .four {
+        float: left;
+        width: 25%;
+    }
+    
+    .five {
+        float: left;
+        width: 25%;
+    }
+    
+    .six {
+        float: left;
+        width: 25%;
+    }
+    
+    
+    .seven {
+        float: left;
+        width: 25%;
+    }
+    
+    .eight {
+        float: left;
+        width: 25%;
+    }
+    
+    .nine {
+        float: left;
+        width: 25%;
+    }
+
+    .ten {
+        float: left;
+        width: 25%;        
+    }
+    
+}
