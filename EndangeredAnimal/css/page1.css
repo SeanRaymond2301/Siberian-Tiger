@@ -7,367 +7,66 @@
     to {background: rgb(100,100,0); border-color: rgb(150,150,0)}
 }
 
-div > div {
-    float:left;
-}
-
 body {
     margin: 0px;
-    margin-top: 72px;
-    width: 100%;
 }
 
-html {
-    margin: 0;
-    width: 100%;
+.page-{
+    
 }
 
-a:hover {
-    animation: animation 2s linear infinite alternate;
-}
-
-.pagenav ul {
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.pagenav ul li {
-    display: inline-block;
-    list-style-type: none;
+.pagenav {
     float: left;
-    padding: 15px 25px;
-    width: 15%;
-}
-
-.navbar {
-    background: rgba(0,0,0,0.33);
-    margin: auto;
     width: 50%;
 }
 
-nav ul {
-    clear: both;
-    display: inline-block;
+.navbar {
+    float: right;
+    width: 50%;
+}
+
+.navbar ul {
+    margin-top: 25px;
     list-style-type: none;
-    width: 100%;
+    display: inline-block;
 }
 
-nav ul li {
-    float: left;
-    width: 25%;
+.navbar ul li {
+    display: inline-block;
+    margin-right: 15px;
 }
 
-footer {
-    margin-top: 24px;
+.navbar a:link {
+    background-color: rgb(255,200,0);
+    border: 5px solid rgb(200,100,0);
+    border-radius: 5px;
+    padding: 15px;
 }
 
 .clear:after {
-    clear: both;
-    content: '';
+    content: "";
     display: table;
-}
-
-.wrapper {
-    background-color: rgb(125,150,125);
-    margin: auto;
-    width: 90%;
-}
-
-a:link {
-    background: rgb(255,200,0);
-    border: 5px solid rgb(200,100,0);
-    border-radius:5px;
-    color: white;
-    font-family: sans-serif;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-}
-
-a:visited {
-    background: rgb(200,200,0);
-    border: 5px solid rgb(150,200,0);
-    padding: 15px 25px;
-}
-
-a:hover {
-    
-}
-
-a:active {
-    
+    clear: both;
 }
 
 @media screen and (max-width: 420px) {
     
-    body {
-        background: rgb(255,255,255);
-    } 
-    
-    .one {
-        width: 100%;
-    } 
-    
-    .two {
-        width: 100%;
-    }
-    
-    .three {
-        width: 100%;
-    }
-    
-    .four {
-        width: 100%;
-    }
-    
-    .five {
-        width: 100%;
-    }
-    
-    .six {
-        width: 100%;
-    }
-    
-    .seven {
-        width: 100%;
-    }
-    
-    .eight {
-        width: 100%;
-    }
-    
-    .nine {
-        width: 100%;
-    }
-
-    .ten {
-        width: 100%;
-    }
-    
 }
 
-@media screen and (min-width: 421px) and (max-width: 768px) {]
-    
-    body {
-        background: rgb(255,255,255);
-    }
-    
-    div > div {
-        background: rgb(255,255,0);
-    }
-    
-    .one {
-        width: 50%;
-    } 
-    
-    .two {
-        width: 50%;
-    }
-    
-    .three {
-        width: 50%;
-    }
-    
-    .four {
-        width: 50%;
-    }
-    
-    .five {
-        width: 50%;
-    }
-    
-    .six {
-        width: 50%;
-    }
-    
-    .seven {
-        width: 50%;
-    }
-    
-    .eight {
-        width: 50%;
-    }
-    
-    .nine {
-        width: 50%;
-    }
-
-    .ten {
-        width: 50%;
-    }
+@media screen and (min-width: 421px) and (max-width: 768px) {
     
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     
-    body {
-        background: rgb(255,255,255);
-    }
-    
-    header {
-        position: fixed;
-        left: 50%;
-        width: 50%;
-        top: 0px;
-        z-index: 1;
-    }
-    
-    .one {
-        width: 33.33%;
-    } 
-    
-    .two {
-        width: 33.33%;
-    }
-    
-    .three {
-        width: 33.34%;
-    }
-    
-    .four {
-        width: 33.33%;
-    }
-    
-    .five {
-        width: 33.33%;
-    }
-    
-    .six {
-        width: 33.34%;
-    }
-    
-    .seven {
-        width: 33.33%;
-    }
-    
-    .eight {
-        width: 33.33%;
-    }
-    
-    .nine {
-        width: 33.34%;
-    }
-
-    .ten {
-        width: 100%;
-    }
-    
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1920px) {
-    
-    body {
-        background: rgb(255,255,255);
-    }
-    
-    header {
-        position: fixed;
-        left: 50%;
-        width: 50%;
-        top: 0px;
-        z-index: 1;
-    }
-    
-    .one {
-        width: 25%;
-    } 
-    
-    .two {
-        width: 25%;  
-    }
-    
-    .three {
-        width: 25%;
-    }
-    
-    .four {
-        width: 25%;
-    }
-    
-    .five {
-        width: 25%;
-    }
-    
-    .six {
-        width: 25%;
-    }
-    
-    
-    .seven {
-        width: 25%;
-    }
-    
-    .eight {
-        width: 25%;
-    }
-    
-    .nine {
-        width: 50%;
-        text-align: center;
-    }
-
-    .ten {
-        width: 50%;
-        text-align: center;
-    }
     
 }
 
 @media screen and (min-width: 1921px) {
     
-    body {
-        background: rgb(150,150,150);
-    }
     
-    header {
-        position: fixed;
-        left: 50%;
-        width: 50%;
-        top: 0px;
-        z-index: -1;
-    }
-    
-    .one {
-        width: 25%;
-    } 
-    
-    .two {
-        width: 25%;  
-    }
-    
-    .three {
-        width: 25%;
-    }
-    
-    .four {
-        width: 25%;
-    }
-    
-    .five {
-        width: 25%;
-    }
-    
-    .six {
-        width: 25%;
-    }
-    
-    
-    .seven {
-        width: 25%;
-    }
-    
-    .eight {
-        width: 25%;
-    }
-    
-    .nine {
-        width: 25%;
-    }
-
-    .ten {
-        width: 25%;        
-    }
     
 }
