@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+@keyframes animation {
+    from {background: rgb(200,150,0); border-color: rgb(250,200,0)}
+    to {background: rgb(100,100,0); border-color: rgb(150,150,0)}
+}
+
 div > div {
     float:left;
 }
@@ -15,6 +20,25 @@ body {
 html {
     margin: 0;
     width: 100%;
+}
+
+a:hover {
+    animation: animation 2s linear infinite alternate;
+}
+
+.pagenav ul {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.pagenav ul li {
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    padding: 15px 25px;
+    width: 15%;
 }
 
 .navbar {
