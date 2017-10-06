@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+div > div {
+    float:left;
+}
+
 body {
     margin: 0px;
     margin-top: 72px;
@@ -131,52 +135,42 @@ a:active {
     }
     
     .one {
-        float: left;
         width: 50%;
     } 
     
     .two {
-        float: left;
         width: 50%;
     }
     
     .three {
-        float: left;
         width: 50%;
     }
     
     .four {
-        float: left;
         width: 50%;
     }
     
     .five {
-        float: left;
         width: 50%;
     }
     
     .six {
-        float: left;
         width: 50%;
     }
     
     .seven {
-        float: left;
         width: 50%;
     }
     
     .eight {
-        float: left;
         width: 50%;
     }
     
     .nine {
-        float: left;
         width: 50%;
     }
 
     .ten {
-        float: left;
         width: 50%;
     }
     
@@ -197,52 +191,42 @@ a:active {
     }
     
     .one {
-        float: left;
         width: 33.33%;
     } 
     
     .two {
-        float: left;
         width: 33.33%;
     }
     
     .three {
-        float: left;
         width: 33.34%;
     }
     
     .four {
-        float: left;
         width: 33.33%;
     }
     
     .five {
-        float: left;
         width: 33.33%;
     }
     
     .six {
-        float: left;
         width: 33.34%;
     }
     
     .seven {
-        float: left;
         width: 33.33%;
     }
     
     .eight {
-        float: left;
         width: 33.33%;
     }
     
     .nine {
-        float: left;
         width: 33.34%;
     }
 
     .ten {
-        float: left;
         width: 100%;
     }
     
@@ -263,54 +247,44 @@ a:active {
     }
     
     .one {
-        float: left;
         width: 25%;
     } 
     
     .two {
-        float: left;
         width: 25%;  
     }
     
     .three {
-        float: left;
         width: 25%;
     }
     
     .four {
-        float: left;
         width: 25%;
     }
     
     .five {
-        float: left;
         width: 25%;
     }
     
     .six {
-        float: left;
         width: 25%;
     }
     
     
     .seven {
-        float: left;
         width: 25%;
     }
     
     .eight {
-        float: left;
         width: 25%;
     }
     
     .nine {
-        float: left;
         width: 50%;
         text-align: center;
     }
 
     .ten {
-        float: left;
         width: 50%;
         text-align: center;
     }
@@ -332,53 +306,43 @@ a:active {
     }
     
     .one {
-        float: left;
         width: 25%;
     } 
     
     .two {
-        float: left;
         width: 25%;  
     }
     
     .three {
-        float: left;
         width: 25%;
     }
     
     .four {
-        float: left;
         width: 25%;
     }
     
     .five {
-        float: left;
         width: 25%;
     }
     
     .six {
-        float: left;
         width: 25%;
     }
     
     
     .seven {
-        float: left;
         width: 25%;
     }
     
     .eight {
-        float: left;
         width: 25%;
     }
     
     .nine {
-        float: left;
         width: 25%;
     }
 
     .ten {
-        float: left;
         width: 25%;        
     }
     
