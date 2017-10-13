@@ -1,3 +1,16 @@
+/*
+ * 3 column arrangement
+ * Left column is 400px
+ * Middle column is 542 px
+ * Far right column will be fluid
+ * 
+ * Make sure BG image is fixed
+ *
+ * Media queries will change for tablet and mobile for a 2 column where the left is fixed and the blank one is fluid
+ * 
+ * On phone media query (<480px) just remove the bg image.
+ */
+
 * {
     box-sizing: border-box;
 }
@@ -7,12 +20,8 @@
     to {background: rgb(100,100,0); border-color: rgb(150,150,0)}
 }
 
-body {
+.body {
     margin: 0px;
-}
-
-.page-{
-    
 }
 
 .pagenav {
@@ -23,6 +32,7 @@ body {
 .navbar {
     float: right;
     width: 50%;
+    text-align: right;
 }
 
 .navbar ul {
@@ -33,7 +43,6 @@ body {
 
 .navbar ul li {
     display: inline-block;
-    margin-right: 15px;
 }
 
 .navbar a:link {
@@ -49,11 +58,23 @@ body {
     clear: both;
 }
 
-@media screen and (max-width: 420px) {
+a:visited
+{
+    background-color: black;
+    transition-duration: 1s;
+}
+
+a:hover
+{
+    background-color: white;
+    transition-duration: 1s;
+}
+
+@media screen and (max-width: 480px) {
     
 }
 
-@media screen and (min-width: 421px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     
 }
 
