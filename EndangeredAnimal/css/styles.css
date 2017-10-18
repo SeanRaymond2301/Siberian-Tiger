@@ -1,0 +1,57 @@
+/*
+ * 3 column arrangement
+ * Left column is 400px
+ * Middle column is 542 px
+ * Far right column will be fluid
+ * 
+ * Make sure BG image is fixed
+ *
+ * Media queries will change for tablet and mobile for a 2 column where the left is fixed and the blank one is fluid
+ * 
+ * On phone media query (<480px) just remove the bg image.
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+ * Home styles
+ */
+
+
+
+/*
+ * About
+ */
+
+/*
+ * Threats
+ */
+
+/*
+ * Get involved
+ */
+
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+    
+}
+
+@media screen and (min-width: 1921px) {
+    
+    
+    
+}
