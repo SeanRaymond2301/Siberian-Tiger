@@ -11,15 +11,82 @@
  * On phone media query (<480px) just remove the bg image.
  */
 
+
+
+/*
+ * Global styles
+ */
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background-image.jpg");
+    background-size: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    color: rgb(255,255,255);
+    font-family: arial, sans-serif;
+    font-size: 17px;
+}
+
+
+.sidebar {
+    height: 100vh;
+    width: 400px;
+    background-color: rgba(0,0,0,.70);
+    float: left;
+    padding: 20px;
+}
+
+.sidebar ul
+{
+    list-style-type: none;
+}
+
+.sidebar ul a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul ul
+{
+    visibility: hidden;
+}
+.sidebar nav>ul li:hover ul
+{
+    visibility: visible;
+}
+
+.blankbit {
+    float: left;
+    width: 543px;
+    height: 100vh;
+}
+
+.content {
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 943px;
+    background-color: rgba(0,0,0,.70);
+    height: 100vh;
+    padding: 20px;
+}
+
+section {
+    border: 10px solid rgb(128,128,128);
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 /*
  * Home styles
  */
-
-
 
 /*
  * About
