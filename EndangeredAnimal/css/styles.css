@@ -21,6 +21,12 @@
     box-sizing: border-box;
 }
 
+.cf:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
 body {
     background-image: url("../images/background-image.jpg");
     background-size: fixed;
@@ -36,29 +42,41 @@ body {
 .sidebar {
     height: 100vh;
     width: 400px;
-    background-color: rgba(0,0,0,.70);
+    background-color: rgba(0,0,0,.42);
     float: left;
     padding: 20px;
 }
 
-.sidebar ul
-{
+.dropdown ul {
+    //display: none;
+    visibility: hidden;
+    height: 0;
+    transition: height ease 0.25s;
+    overflow: hidden;
+}
+
+.dropdown:hover ul  {
+    visibility: visible;
+    height: 82px;
+}
+
+.font {
+    font-size: 36px;
+}
+
+body.index a.index, body.about a.about, body.threats a.threats, bod.cta a.cta, body.donations a.donations {
+    color: rgb(200,150,0);
+}
+
+.sidebar ul {
     list-style-type: none;
 }
 
 .sidebar ul a
 {
     color: white;
+    font-size: 36px;
     text-decoration: none;
-}
-
-.sidebar ul ul
-{
-    visibility: hidden;
-}
-.sidebar nav>ul li:hover ul
-{
-    visibility: visible;
 }
 
 .blankbit {
