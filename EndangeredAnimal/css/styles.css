@@ -21,6 +21,10 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+}
+
 .cf:after {
     clear: both;
     content: '';
@@ -40,15 +44,14 @@ body {
 
 
 .sidebar {
-    height: 100vh;
     width: 400px;
-    background-color: rgba(0,0,0,.42);
+    height: 100%;
+    background-color: rgba(0,0,0,.43);
     float: left;
     padding: 20px;
 }
 
 .dropdown ul {
-    //display: none;
     visibility: hidden;
     height: 0;
     transition: height ease 0.25s;
@@ -64,25 +67,24 @@ body {
     font-size: 36px;
 }
 
-body.index a.index, body.about a.about, body.threats a.threats, body.page1 a.page1, body.page2 a.page2, body.cta a.cta, body.donations a.donations {
-    color: rgb(200,150,0);
-}
-
 .sidebar ul {
     list-style-type: none;
 }
 
-.sidebar ul a
-{
+.sidebar ul a {
     color: white;
     font-size: 36px;
     text-decoration: none;
 }
 
+body a.activelink {
+    color: rgb(200,150,0);
+}
+
 .blankbit {
     float: left;
     width: 543px;
-    height: 100vh;
+    height: 100%;
 }
 
 .content {
@@ -90,8 +92,8 @@ body.index a.index, body.about a.about, body.threats a.threats, body.page1 a.pag
     position: absolute;
     top: 0;
     left: 943px;
-    background-color: rgba(0,0,0,.70);
-    height: 100vh;
+    background-color: rgba(0,0,0,.43);
+    height: 100%;
     padding: 20px;
 }
 
