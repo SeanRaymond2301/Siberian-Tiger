@@ -64,7 +64,7 @@ body {
     font-size: 36px;
 }
 
-body.index a.index, body.about a.about, body.threats a.threats, bod.cta a.cta, body.donations a.donations {
+body.index a.index, body.about a.about, body.threats a.threats, body.page1 a.page1, body.page2 a.page2, body.cta a.cta, body.donations a.donations {
     color: rgb(200,150,0);
 }
 
