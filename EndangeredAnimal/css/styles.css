@@ -46,7 +46,7 @@ body {
 .sidebar {
     width: 400px;
     height: 100%;
-    background-color: rgba(0,0,0,.43);
+    background-color: rgba(0,0,0,.42);
     float: left;
     padding: 20px;
 }
