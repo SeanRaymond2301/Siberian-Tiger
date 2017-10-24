@@ -11,6 +11,22 @@
  * On phone media query (<480px) just remove the bg image.
  */
 
+.homepage {
+    float: left;
+    height: 300px;
+    width: 49%;
+    margin: .5%;
+    overflow: hidden;
+}
+
+.homepage2 {
+    float: left;
+    height: 300px;
+    width: 49%;
+    margin-left: 25.25%;
+    margin-top: 1%;
+    overflow: hidden;
+}
 
 
 /*
