@@ -11,22 +11,6 @@
  * On phone media query (<480px) just remove the bg image.
  */
 
-.homepage {
-    float: left;
-    height: 300px;
-    width: 49%;
-    margin: .5%;
-    overflow: hidden;
-}
-
-.homepage2 {
-    float: left;
-    height: 300px;
-    width: 49%;
-    margin-left: 25.25%;
-    margin-top: 1%;
-    overflow: hidden;
-}
 
 
 /*
@@ -34,7 +18,7 @@
  */
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 body, html {
@@ -50,7 +34,7 @@ body, html {
 body {
     background-image: url("../images/background-image.jpg");
     background-size: fixed;
-    background-repeat: no-repeat;
+/*    background-repeat: no-repeat;*/
     background-attachment: fixed;
     margin: 0px;
     color: rgb(255,255,255);
@@ -123,6 +107,35 @@ section {
 /*
  * Home styles
  */
+
+.homepage {
+    float: left;
+    height: 330px;
+    width: 49%;
+    margin: .5%;
+    overflow: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+.homepage:last-child {
+    float: none;
+    width: 99%;
+    
+}
+
+section.homepage a {
+    color: white;
+    display: block;
+    font-size: 36px;
+    font-style: none;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.threats-height {
+    padding-top: 78px;
+}
 
 /*
  * About
