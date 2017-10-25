@@ -24,12 +24,6 @@ html {
     height: 100%;
 }
 
-.cf:after {
-    clear: both;
-    content: '';
-    display: table;
-}
-
 body {
     background-image: url("../images/background-image.jpg");
     background-size: fixed;
@@ -41,22 +35,32 @@ body {
     font-size: 17px;
 }
 
+body a.activelink {
+    color: rgb(200, 150, 0);
+}
 
-.sidebar {
-    width: 400px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .42);
+.float-right {
+    float: right;
+}
+
+.float-left {
     float: left;
-    padding: 20px;
-    z-index: 0;
+}
+
+.cf:after {
+    clear: both;
+    content: '';
+    display: table;
 }
 
 aside {
     width: 400px;
     height: 100%;
-    float: left;
     padding: 20px;
     z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .dropdown ul {
@@ -85,18 +89,15 @@ aside a {
     text-decoration: none;
 }
 
-body a.activelink {
-    color: rgb(200, 150, 0);
-}
-
 .blankbit {
-    float: left;
     width: 543px;
     height: 100%;
+    position: fixed;
+    top: 0;
+    left: 400px;
 }
 
-.content {
-    float: right;
+.content {;
     position: absolute;
     top: 0;
     left: 943px;
@@ -104,11 +105,9 @@ body a.activelink {
     height: 100%;
 }
 
-
 .bg-rect-right {
     position: fixed;
     top: 0;
-
     left: 943px;
     background-color: rgba(0, 0, 0, .43);
     height: 100vh;
@@ -133,14 +132,20 @@ section {
     padding: 10px;
 }
 
-section p {
-    margin: 10px;
+section .image {
+    width: 40%;
 }
-
+.image img {
+    width: 100%;
+}
+section div.text {
+    width: 60%;
+}
+    
 /*
  * Home styles
  */
-
+    
 /*
  * About
  */
