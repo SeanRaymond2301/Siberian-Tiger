@@ -11,8 +11,6 @@
  * On phone media query (<480px) just remove the bg image.
  */
 
-
-
 /*
  * Global styles
  */
@@ -21,14 +19,9 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     height: 100%;
-}
-
-.cf:after {
-    clear: both;
-    content: '';
-    display: table;
 }
 
 body {
@@ -37,18 +30,37 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0px;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     font-family: arial, sans-serif;
     font-size: 17px;
 }
 
+body a.activelink {
+    color: rgb(200, 150, 0);
+}
 
-.sidebar {
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.cf:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+aside {
     width: 400px;
     height: 100%;
-    background-color: rgba(0,0,0,.42);
-    float: left;
     padding: 20px;
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .dropdown ul {
@@ -58,7 +70,7 @@ body {
     overflow: hidden;
 }
 
-.dropdown:hover ul  {
+.dropdown:hover ul {
     visibility: visible;
     height: 82px;
 }
@@ -67,47 +79,73 @@ body {
     font-size: 36px;
 }
 
-.sidebar ul {
+aside ul {
     list-style-type: none;
 }
 
-.sidebar ul a {
+aside a {
     color: white;
     font-size: 36px;
     text-decoration: none;
 }
 
-body a.activelink {
-    color: rgb(200,150,0);
-}
-
 .blankbit {
-    float: left;
     width: 543px;
     height: 100%;
+    position: fixed;
+    top: 0;
+    left: 400px;
 }
 
-.content {
-    float: right;
+.content {;
     position: absolute;
     top: 0;
     left: 943px;
-    background-color: rgba(0,0,0,.43);
-    height: 100%;
     padding: 20px;
+    height: 100%;
+}
+
+.bg-rect-right {
+    position: fixed;
+    top: 0;
+    left: 943px;
+    background-color: rgba(0, 0, 0, .43);
+    height: 100vh;
+    width: 50.9%;
+}
+
+.bg-rect-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .42);
+    padding: 20px;
+    z-index: -1;
 }
 
 section {
-    border: 10px solid rgb(128,128,128);
+    border: 10px solid rgb(128, 128, 128);
     border-radius: 2px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
+section .image {
+    width: 40%;
+}
+.image img {
+    width: 100%;
+}
+section div.text {
+    width: 60%;
+}
+    
 /*
  * Home styles
  */
-
+    
 /*
  * About
  */
@@ -120,25 +158,12 @@ section {
  * Get involved
  */
 
+@media screen and (max-width: 480px) {}
 
-@media screen and (max-width: 480px) {
-    
-}
+@media screen and (min-width: 481px) and (max-width: 768px) {}
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    
-}
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    
-}
+@media screen and (min-width: 1025px) and (max-width: 1920px) {}
 
-@media screen and (min-width: 1025px) and (max-width: 1920px) {
-    
-}
-
-@media screen and (min-width: 1921px) {
-    
-    
-    
-}
+@media screen and (min-width: 1921px) {}
