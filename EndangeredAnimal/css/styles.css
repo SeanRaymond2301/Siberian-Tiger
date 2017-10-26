@@ -16,7 +16,7 @@
  */
 
 * {
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 body,
@@ -27,7 +27,7 @@ html {
 body {
     background-image: url("../images/background-image.jpg");
     background-size: fixed;
-/*    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0px;
     color: rgb(255, 255, 255);
@@ -35,7 +35,7 @@ body {
     font-size: 17px;
 }
 
-body a.activelink {
+.activelink {
     color: rgb(200, 150, 0);
 }
 
@@ -97,7 +97,8 @@ aside a {
     left: 400px;
 }
 
-.content {;
+.content {
+    ;
     position: absolute;
     top: 0;
     left: 943px;
@@ -135,13 +136,15 @@ section {
 section .image {
     width: 40%;
 }
+
 .image img {
     width: 100%;
 }
+
 section div.text {
     width: 60%;
 }
-    
+
 /*
  * Home styles
  */
@@ -158,7 +161,8 @@ section div.text {
 .homepage:last-child {
     float: none;
     width: 99%;
-    
+    height: 350px;
+
 }
 
 section.homepage a {
@@ -171,8 +175,12 @@ section.homepage a {
     text-align: center;
 }
 
-.threats-height {
-    padding-top: 78px;
+.button {
+    border: 10px solid rgb(128, 128, 128);
+}
+
+.homepage .threats-height {
+    margin-top: 93px;
 }
 
 /*
