@@ -98,7 +98,6 @@ aside a {
 }
 
 .content {
-    ;
     position: absolute;
     top: 0;
     left: 943px;
@@ -126,15 +125,12 @@ aside a {
     z-index: -1;
 }
 
-section {
-    border: 10px solid rgb(128, 128, 128);
-    border-radius: 2px;
-    margin-bottom: 20px;
-    padding: 10px;
+section .image {
+    width: 266px;
 }
 
-section .image {
-    width: 40%;
+section {
+    margin-bottom: 50px;
 }
 
 .image img {
@@ -145,42 +141,19 @@ section div.text {
     width: 60%;
 }
 
+p {
+    text-indent: 33px;
+}
+
 /*
  * Home styles
  */
 
-.homepage {
-    float: left;
-    height: 330px;
-    width: 49%;
-    margin: .5%;
-    overflow: auto;
-    padding: 0px 10px 0px 10px;
-}
-
-.homepage:last-child {
-    float: none;
-    width: 99%;
-    height: 350px;
-
-}
-
-section.homepage a {
-    color: white;
-    display: block;
-    font-size: 36px;
-    font-style: none;
-    margin: auto;
-    text-decoration: none;
-    text-align: center;
-}
-
-.button {
+.index section {
     border: 10px solid rgb(128, 128, 128);
-}
-
-.homepage .threats-height {
-    margin-top: 93px;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    padding: 10px;
 }
 
 /*
@@ -190,6 +163,12 @@ section.homepage a {
 /*
  * Threats
  */
+
+.threats img {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
 
 /*
  * Get involved
