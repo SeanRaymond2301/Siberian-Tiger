@@ -19,6 +19,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 body,
 html {
     height: 100%;
@@ -127,8 +131,6 @@ aside a {
 }
 
 section {
-    border: 10px solid rgb(128, 128, 128);
-    border-radius: 2px;
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -149,38 +151,44 @@ section div.text {
  * Home styles
  */
 
-.homepage {
-    float: left;
-    height: 330px;
-    width: 49%;
-    margin: .5%;
-    overflow: auto;
-    padding: 0px 10px 0px 10px;
+.index section {
+    border: 2.5px solid rgb(128,128,128);
+    background: rgba(0,0,0,.25);
 }
 
-.homepage:last-child {
-    float: none;
-    width: 99%;
-    height: 350px;
-
+.width-30 {
+    margin: 0;
+    padding: 0;
+    width: 30%;
 }
 
-section.homepage a {
-    color: white;
-    display: block;
-    font-size: 36px;
-    font-style: none;
-    margin: auto;
-    text-decoration: none;
-    text-align: center;
+.width-70 {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+
+section div.width-70:last-child {
+    width: 71%;
 }
 
 .button {
-    border: 10px solid rgb(128, 128, 128);
+    background:rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    max-width: 267px;
+    display: block;
 }
 
-.homepage .threats-height {
-    margin-top: 93px;
+.learn-more img {
+    margin-bottom: -5px;
+}
+
+.learn-more a:last-child {
+    border: 2px inset rgb(200,150,0);
 }
 
 /*
