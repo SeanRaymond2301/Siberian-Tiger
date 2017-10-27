@@ -35,7 +35,7 @@ body {
     font-size: 17px;
 }
 
-body a.activelink {
+.activelink {
     color: rgb(200, 150, 0);
 }
 
@@ -97,7 +97,7 @@ aside a {
     left: 400px;
 }
 
-.content {;
+.content {
     position: absolute;
     top: 0;
     left: 943px;
@@ -125,27 +125,37 @@ aside a {
     z-index: -1;
 }
 
-section {
-    border: 10px solid rgb(128, 128, 128);
-    border-radius: 2px;
-    margin-bottom: 20px;
-    padding: 10px;
+section .image {
+    width: 266px;
 }
 
-section .image {
-    width: 40%;
+section {
+    margin-bottom: 50px;
 }
+
 .image img {
     width: 100%;
 }
+
 section div.text {
     width: 60%;
 }
-    
+
+p {
+    text-indent: 33px;
+}
+
 /*
  * Home styles
  */
-    
+
+.index section {
+    border: 10px solid rgb(128, 128, 128);
+    border-radius: 2px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
 /*
  * About
  */
@@ -153,6 +163,12 @@ section div.text {
 /*
  * Threats
  */
+
+.threats img {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
 
 /*
  * Get involved
