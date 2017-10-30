@@ -179,7 +179,7 @@ section div.width-70:last-child {
     text-align: center;
     text-decoration: none;
     width: 100%;
-    max-width: 267px;
+    max-width: 266px;
     display: block;
 }
 
@@ -187,8 +187,12 @@ section div.width-70:last-child {
     margin-bottom: -5px;
 }
 
+.learn-more a {
+    margin-bottom: 7px;
+}
+
 .learn-more a:last-child {
-    border: 2px inset rgb(200,150,0);
+    border: 1.5px solid rgb(200,150,0);
 }
 
 /*
