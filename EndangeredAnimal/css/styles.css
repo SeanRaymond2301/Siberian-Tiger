@@ -31,6 +31,7 @@ body {
     background-attachment: fixed;
     margin: 0px;
     color: rgb(255, 255, 255);
+    background-color: rgb(175,110,0);
     font-family: arial, sans-serif;
     font-size: 17px;
 }
@@ -61,22 +62,7 @@ aside {
     position: fixed;
     left: 0;
     top: 0;
-}
-
-.dropdown ul {
-    visibility: hidden;
-    height: 0;
-    transition: height ease 0.25s;
-    overflow: hidden;
-}
-
-.dropdown:hover ul {
-    visibility: visible;
-    height: 82px;
-}
-
-.font {
-    font-size: 36px;
+    font-size: 1.5em;
 }
 
 aside ul {
@@ -85,16 +71,7 @@ aside ul {
 
 aside a {
     color: white;
-    font-size: 36px;
     text-decoration: none;
-}
-
-.blankbit {
-    width: 543px;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 400px;
 }
 
 .content {
@@ -109,7 +86,7 @@ aside a {
     position: fixed;
     top: 0;
     left: 943px;
-    background-color: rgba(0, 0, 0, .43);
+    background-color: rgba(0, 0, 0, .42);
     height: 100vh;
     width: 50.9%;
 }
@@ -121,8 +98,15 @@ aside a {
     width: 400px;
     height: 100vh;
     background-color: rgba(0, 0, 0, .42);
-    padding: 20px;
     z-index: -1;
+}
+
+.blankbit {
+    width: 543px;
+    position: fixed;
+    top: 0;
+    left: 400px;
+    height: 100%;
 }
 
 section .image {
@@ -131,10 +115,6 @@ section .image {
 
 section {
     margin-bottom: 50px;
-}
-
-.image img {
-    width: 100%;
 }
 
 section div.text {
@@ -164,8 +144,9 @@ p {
  * Threats
  */
 
-.threats img {
+.threats article img {
     max-width: 500px;
+    width: 100%;
     margin: auto;
     display: block;
 }
@@ -174,12 +155,89 @@ p {
  * Get involved
  */
 
-@media screen and (max-width: 480px) {}
 
-@media screen and (min-width: 481px) and (max-width: 768px) {}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
 
-@media screen and (min-width: 1025px) and (max-width: 1920px) {}
+@media screen and (max-width: 1400px) {
+    
+    body {
+        background-image: none;
+    }
+    
+    .blankbit {
+        display: none;
+    }
+    
+    .bg-rect-right,
+    .content,
+    .bg-rect-left,
+    aside {
+        position: static;
+        width: auto;
+    }
+    
+    aside ul li {
+        margin: auto;
+    }
+    
+    aside {
+        width: auto;
+        margin: auto;
+        display: block;
+        text-align: center;    
+    }
+    
+    aside ul {
+        margin: auto;
+        display: block;
+    }
+    
+    ul li {
+        display: inline-block;
+        padding: 0px;    
+    }
+    
+    aside img {
+        margin: auto;
+        display: block;
+    }
+    
+    .bg-rect-right {
+        display: none;
+    }
+    
+    .bg-rect-left {
+        display: none;
+    }
+    
+    .about-text {
+        display: none;
+        visibility: none;
+    }
+    
+}
 
-@media screen and (min-width: 1921px) {}
+
+@media screen and (min-width: 1921px) {
+    body {
+        background-image: url("../images/background-image-4k.jpg");
+        font-size: 30px;
+    }
+    
+    .blankbit {
+        left: 800px; 
+        width: 1086px;
+    }
+    
+    .bg-rect-right {
+        left: 1886px;
+    }
+    
+    .bg-rect-left {
+        width: 800px;
+    }
+    
+    .content {
+        left: 1886px;
+    }
+}
