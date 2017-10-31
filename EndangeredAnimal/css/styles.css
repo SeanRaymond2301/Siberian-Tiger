@@ -34,7 +34,7 @@ body {
     background-attachment: fixed;
     margin: 0px;
     color: rgb(255, 255, 255);
-    background-color: rgb(100, 40, 0);
+    background-color: #762613;
     font-family: arial, sans-serif;
     font-size: 17px;
 }
@@ -252,7 +252,8 @@ section .yawn {
         background-repeat: no-repeat;
         background-size: 1400px auto;
         background-position: 29% -80%;
-        padding-bottom: 60px;
+        padding-bottom: 60px;    
+        box-shadow: 0 5px 15px rgba(0,0,0,0.33);
     }
     aside ul {
         margin: auto;
