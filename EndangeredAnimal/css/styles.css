@@ -59,7 +59,6 @@ body {
 
 aside {
     width: 400px;
-    /*    height: 100%;*/
     padding: 20px;
     z-index: 10;
     position: fixed;
@@ -77,12 +76,17 @@ aside a {
     text-decoration: none;
 }
 
+aside ul li {
+    margin-bottom: 5px;
+}
+
 .content {
     position: absolute;
     top: 0;
     left: 943px;
     padding: 20px;
     height: 100%;
+    margin-bottom: 30px;
 }
 
 .bg-rect-right {
@@ -117,8 +121,8 @@ section .image {
 }
 
 section {
-    margin-bottom: 50px;
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 section div.text {
@@ -136,9 +140,11 @@ hr {
 
 footer p {
     display: inline-block;
-    position: absolute;
-    bottom: 0;
-    right: 20px;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(127, 127, 127);
+    font-size: 0.75em;
 }
 
 
@@ -303,7 +309,7 @@ section div.width-70:last-child {
     .float-left {
         float: none;
     }
-    
+
     footer p {
         position: static;
         bottom: initial;
