@@ -211,6 +211,13 @@ section div.width-70:last-child {
     display: block;
 }
 
+section .yawn {
+    display: block;
+    margin: auto;
+    margin-bottom: -30px;
+    max-width: 600px;
+    width: 100%;
+}
 
 /*
  * Get involved
