@@ -59,7 +59,7 @@ body {
 
 aside {
     width: 400px;
-    height: 100%;
+/*    height: 100%;*/
     padding: 20px;
     z-index: 10;
     position: fixed;
@@ -118,7 +118,7 @@ section .image {
 
 section {
     margin-bottom: 50px;
-    margin-bottom: 20px;
+    padding: 10px;
 }
 
 section div.text {
@@ -127,6 +127,11 @@ section div.text {
 
 p {
     text-indent: 33px;
+}
+
+hr {
+    color: rgba(255,255,255,0.2);
+    margin-bottom: 5px;
 }
 
 /*
@@ -181,14 +186,6 @@ section div.width-70:last-child {
  * About Page 1
  */
 
-p {
-    text-indent: 33px;
-}
-
-hr {
-    border: rgba(0,0,100,.20);
-}
-
 /*
  * About Page 2
  */
@@ -209,9 +206,7 @@ hr {
  */
 
 
-
-@media screen and (max-width: 1400px) {
-    
+@media screen and  (max-width: 479px) {
     body {
         background-image: none;
     }
@@ -243,9 +238,10 @@ hr {
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 1400px auto;
-        background-position: 29% 30%;
+        background-position: 29% -80%;
         padding-bottom: 60px;
     }
+    
     
     aside ul {
         margin: auto;
@@ -253,6 +249,8 @@ hr {
         display: block;
         margin-left: 0px;
         padding: 0px;
+        background-color: rgba(0,0,0,.42);
+        border-radius: 10px;
     }
     
     ul li {
@@ -274,7 +272,35 @@ hr {
     .bg-rect-left {
         display: none;
     }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1400px) {
+    body {
+        background-image: url(../images/background-image-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
     
+    .bg-rect-right,
+    .bg-rect-left {
+        display: none;
+    }
+    
+    aside {
+        position: absolute;
+        background-color: rgba(0,0,0,.42);
+        width: auto;
+    }
+    
+    .content {
+        position: absolute;
+        top: 450px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: rgba(0,0,0,.42);
+    }
 }
 
 
