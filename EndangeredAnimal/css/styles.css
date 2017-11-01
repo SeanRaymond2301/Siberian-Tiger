@@ -143,6 +143,9 @@ footer p {
     text-align: right;
     margin: 0px;
     padding: 0px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
     color: rgb(127, 127, 127);
     font-size: 0.75em;
 }
@@ -197,15 +200,6 @@ section div.width-70:last-child {
     border: 1.5px solid rgb(200, 150, 0);
 }
 
-
-/*
- * About Page 1
- */
-
-/*
- * About Page 2
- */
-
 /*
  * Threats
  */
@@ -229,13 +223,64 @@ section .yawn {
  * Get involved
  */
 
+/*
+ *References
+ */
+
+.animal-planet {
+    width: 500px;
+    max-width: 20%;
+}
+
+.reference {
+    background-color: rgba(0,0,0,0.5);
+    border: 1.5px solid rgb(200, 150, 0);
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+    height: 225px;
+    padding: 90px 25px; 
+    text-align: center;
+    text-decoration: none;
+    width: 225px;
+}
+
+.reference:visited {
+    color: white;
+}
+
+section:last-of-type {
+    margin-top: 40px;
+}
+
+.reference article {
+    display: inline-block;
+}
+
+.references section {
+    float: left;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.references section:nth-child(5) {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.references section h2 {
+    border-left: 1.5px solid rgb(200,150,0);
+}
+
 @media screen and (max-width: 479px) {
     body {
         background-image: none;
     }
+    
     .blankbit {
         display: none;
     }
+    
     .bg-rect-right,
     .content,
     .bg-rect-left,
@@ -243,11 +288,13 @@ section .yawn {
         position: static;
         width: auto;
     }
+    
     aside ul li {
         margin: auto;
         margin-right: 10px;
         margin-left: 10px;
     }
+    
     aside {
         width: auto;
         margin: auto;
@@ -261,6 +308,7 @@ section .yawn {
         padding-bottom: 60px;    
         box-shadow: 0 5px 15px rgba(0,0,0,0.33);
     }
+    
     aside ul {
         margin: auto;
         margin-top: 10px;
@@ -270,35 +318,44 @@ section .yawn {
         background-color: rgba(0, 0, 0, .42);
         border-radius: 10px;
     }
+    
     ul li {
         display: inline-block;
         padding: 0px;
     }
+    
     aside img {
         display: block;
         max-width: 200px;
         min-width: 100px;
         width: 14%;
     }
+    
     .bg-rect-right {
         display: none;
     }
+    
     .bg-rect-left {
         display: none;
     }
+    
     .index section {
         border: none;
         background: none;
     }
+    
     .width-30 {
         width: 100%;
     }
+    
     .width-70 {
         width: 100%;
     }
+    
     section div.width-70:last-child {
         width: 100%;
     }
+    
     .button {
         background: rgb(37, 37, 37);
         color: rgb(255, 255, 255);
@@ -332,15 +389,25 @@ section .yawn {
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+    
     .bg-rect-right,
     .bg-rect-left {
         display: none;
     }
+    
     aside {
+        border-bottom: solid rgba(255,255,255,.33);
+        border-right: solid rgba(255,255,255,.33);
         position: absolute;
         background-color: rgba(0, 0, 0, .42);
         width: auto;
+        height: 450px;
     }
+    
+    aside img {
+        margin-bottom: -20px;
+    }
+    
     .content {
         position: absolute;
         top: 450px;
@@ -348,6 +415,7 @@ section .yawn {
         width: 100%;
         height: auto;
         background-color: rgba(0, 0, 0, .42);
+        margin-bottom: -30px;
     }
 }
 
@@ -356,17 +424,22 @@ section .yawn {
         background-image: url("../images/background-image-4k.jpg");
         font-size: 30px;
     }
+    
     .blankbit {
         left: 800px;
         width: 1086px;
     }
+    
     .bg-rect-right {
         left: 1886px;
     }
+    
     .bg-rect-left {
         width: 800px;
     }
+    
     .content {
         left: 1886px;
     }
+    
 }
