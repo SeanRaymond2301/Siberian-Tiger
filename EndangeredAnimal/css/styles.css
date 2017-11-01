@@ -223,13 +223,17 @@ section .yawn {
  * Get involved
  */
 
+.river {
+    margin-top: px;
+}
+
 /*
  *References
  */
 
 .animal-planet {
     width: 500px;
-    max-width: 20%;
+    max-width: 50%;
 }
 
 .reference {
@@ -440,6 +444,12 @@ section:last-of-type {
     
     .content {
         left: 1886px;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
     }
     
 }
