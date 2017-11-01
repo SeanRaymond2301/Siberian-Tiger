@@ -122,7 +122,7 @@ section .image {
 
 section {
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 section div.text {
@@ -143,9 +143,6 @@ footer p {
     text-align: right;
     margin: 0px;
     padding: 0px;
-    position: absolute;
-    bottom: 5px;
-    right: 10px;
     color: rgb(127, 127, 127);
     font-size: 0.75em;
 }
@@ -227,10 +224,7 @@ section .yawn {
  *References
  */
 
-.animal-planet {
-    width: 500px;
-    max-width: 20%;
-}
+
 
 .reference {
     background-color: rgba(0,0,0,0.5);
@@ -258,7 +252,6 @@ section:last-of-type {
 }
 
 .references section {
-    float: left;
     width: 50%;
     margin-bottom: 40px;
 }
@@ -440,6 +433,10 @@ section:last-of-type {
     
     .content {
         left: 1886px;
+    }
+    
+    .reference .float-left {
+        float: none;
     }
     
 }
